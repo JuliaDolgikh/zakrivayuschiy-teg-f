@@ -12,3 +12,69 @@
 
 Кроме этого, не меняйте HTML переключателя тем. Его разметка также гарантирует работу своего скрипта.
 */
+
+
+@keyframes move-arrow {
+  0% {
+    transform: translateX(0); 
+  }
+  100% {
+    transform: translateX(4px); 
+  }
+}
+
+@keyframes filling {
+    0%  {
+        background-color: var(--main-color);
+        width: 0%;
+    }
+
+    50% {
+        color: rgba(100, 255, 100, 0.6); 
+      }
+
+    100% {
+        background-color: var(--main-color);
+        width: 100%;
+
+    }
+}
+
+@keyframes color-blend {
+    0% {
+      color: var(--main-color); 
+      mix-blend-mode: difference; 
+    }
+   
+    100% {
+      color: var(--bg-color); 
+      mix-blend-mode: normal; 
+    }
+  }
+
+
+  @keyframes scale-heart {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.5);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+  @keyframes sparks {
+    0% {
+        opacity: 0;
+      }
+      50% {
+        opacity: 0.5;
+      }
+      100% {
+        opacity: 1;
+      }
+      
+  }
