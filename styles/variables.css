@@ -11,37 +11,32 @@
     --bg-color: rgba(255, 255, 255, 1);
     --bg-image: 
     repeating-linear-gradient(
-        90deg,
-        #d3d3d3 0px, 
-        transparent 2px
-    ),
+      90deg,
+      #d3d3d3 0 2px, 
+      rgb(0 0 0 / 0) 2px 4px
+
+      ), 
 
     repeating-linear-gradient(
-        0deg,
-        #d3d3d3 0px, 
-        transparent 2px
-    ),
+      180deg, #d3d3d3 0 2px, 
+      rgb(0 0 0 / 0) 2px 4px
+
+      ), 
 
     linear-gradient(
-        to bottom,
-        #e7e7e7 0.01%, 
-        #1a1a1a 100%
-    );
-
+      180deg,
+      #e7e7e7 0%, 
+      #e7e7e7 0.01%, 
+      #1a1a1a 100%
+      );
+  
     --main-color: rgba(0, 0, 0, 1);
     --main-color-opacity: rgba(0, 0, 0, 0.5);
     --text-stroke: 1px rgba(255, 255, 255, 0.5); 
+    --label-color: rgba(255, 255, 255, 0.5); 
+    --text-button-color: rgba(255, 255, 255, 1);
     --outline-color: rgba(0, 0, 0, 1); 
     --fill-color: rgba(255, 0, 0, 1);
-    --dialog-dynamic-padding: 
-    clamp(30.5px, 2vw, 31.5px) 
-    clamp(32.5px, 3vw, 42px)    
-    clamp(30.5px, 2vw, 32px)  
-    clamp(31.5px, 2.5vw, 42px); 
-    --footer-margin-top: clamp(52px, calc(52px + (2 * (100vw - 375px) / (1440 - 375))), 54px);
-    --footer-margin-bottom: clamp(100px, calc(100px + 3 * ((100vw - 375px) / 1065)), 103px);
-
-  
   
   }
 

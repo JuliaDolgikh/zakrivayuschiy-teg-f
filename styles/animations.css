@@ -23,48 +23,6 @@
   }
 }
 
-@keyframes filling {
-    0%  {
-        background-color: var(--main-color);
-        width: 0%;
-    }
-
-    50% {
-        color: rgba(100, 255, 100, 0.6); 
-      }
-
-    100% {
-        background-color: var(--main-color);
-        width: 100%;
-
-    }
-}
-
-@keyframes color-blend {
-    0% {
-      color: var(--main-color); 
-      mix-blend-mode: difference; 
-    }
-   
-    100% {
-      color: var(--bg-color); 
-      mix-blend-mode: normal; 
-    }
-  }
-
-
-  @keyframes scale-heart {
-    0% {
-      transform: scale(1);
-    }
-    50% {
-      transform: scale(1.5);
-    }
-    100% {
-      transform: scale(1);
-    }
-  }
-
 
   @keyframes sparks {
     0% {
